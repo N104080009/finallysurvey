@@ -1,0 +1,59 @@
+body {
+	margin:0px auto;
+	background-attachment:fixed;
+	/*background-image:url(../pic/bg_text7.jpg);*/
+	background-color:#fff;
+	overflow-x: hidden;
+}
+
+html,body{
+    height:100%;
+}
+
+@font-face{
+    font-family:'NotoSansTC Black';
+	font-style:normal;
+	font-weight:900;
+	src: url(https://fonts.gstatic.com/eanotosanstc/v1/NotoSansTC-Black.woff2);
+	format('woff2');
+	src: url(https://fonts.gstatic.com/eanotosanstc/v1/NotoSansTC-Black.woff);
+	format('woff');
+	src: url(https://fonts.gstatic.com/eanotosanstc/v1/NotoSansTC-Black.otf);
+	format('opentype');
+}
+	.text-NotoSansTC-Black{
+	  font-family:'NotoSansTC Black';
+	  color:crimson;
+	}
+	
+
+/**導覽列功能選單menu**/
+  .dropdown-menu li a:hover{
+    background-color:#e5e5e5;
+  }
+
+	
+	
+/**輪播**/
+    .carousel{
+     height:100%;
+	}
+	
+  .carousel-item,.active,.Carousel-inner{
+     height:100%;
+	}
+
+	
+  .fill{
+     width:100%;
+	 height:100%;
+	 background-position:center;
+	 background-size:cover;
+	}	
+	
+
+
+.main{
+	margin:70px 0 0 0;
+	
+}
